@@ -1,35 +1,35 @@
 {
   "name": "vue-3-sanitize",
   "version": "0.1.0",
+  "author": "Vannsl, Vanessa Böhner <mail@vannsl.io>",
+  "license": "MIT",
   "description": "HTML sanitizer for Vue.js 3 apps",
   "homepage": "https://github.com/vannsl/vue-3-sanitize",
   "main": "dist/vue-sanitize.js",
-  "jsnext:main": "index.js",
   "scripts": {
-    "build": "rollup -c --name vue-3-sanitize --input index.js"
+    "build": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vannsl/vue-3-sanitize.git"
+  },
+  "files": [
+    "dist/*"
+  ],
   "keywords": [
     "vue3",
     "vue-sanitize",
     "vue",
     "vue-plugin"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vannsl/vue-3-sanitize.git"
-  },
-  "author": "Vannsl, Vanessa Böhner <mail@vannsl.io>",
-  "license": "MIT",
   "dependencies": {
     "sanitize-html": "^2.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-env": "^1.7.0",
-    "rollup": "^2.28.1",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.28.2"
   }
 }
