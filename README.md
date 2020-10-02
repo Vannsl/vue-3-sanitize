@@ -31,7 +31,7 @@ To override the default options of [sanitize-html](https://www.npmjs.com/package
 
 ``` js
 const overridenOptions = {
-    allowedTags: [img']
+    allowedTags: ['img']
 };
 app.use(VueSanitize, overridenOptions);
 ```
@@ -53,9 +53,9 @@ If you find any bugs, please open an issue.
 1. Fork it
 1. Create your feature branch: `git checkout -b feature-or-bugfix`
 1. Add your changes: `git add files`
-1. Commit your changes: `git commit -m 'Add some feature'`
+1. Commit your changes: `git commit -m "Add some feature"`
 1. Push to the branch: `git push origin feature-or-bugfix`
-1. Sumbit a forked pull request
+1. Submit a forked pull request
 
 ## License
 
