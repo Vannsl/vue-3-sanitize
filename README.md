@@ -9,9 +9,9 @@ You want to use `v-html`? You might need to sanitize the code. This plugin is bu
 ## Install
 
 ```bash
-yarn add vue-sanitize
+yarn add vue-3-sanitize
 # or
-npm install --save vue-sanitize
+npm install --save vue-3-sanitize
 ```
 
 ## Usage
