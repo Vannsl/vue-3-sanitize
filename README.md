@@ -2,7 +2,7 @@
 
 HTML sanitizer for Vue.js 3 apps.
 
-[![vue-next](https://img.shields.io/badge/vue-next-brightgreen.svg)](https://github.com/vuejs/vue-next) [![npm](https://img.shields.io/npm/v/vue-3-sanitize.svg?style=flat-square)](https://npmjs.org/package/vue-3-sanitize) [![npm](https://img.shields.io/npm/v/vue-3-sanitize.svg?style=flat-square)](https://github.com/vannsl/vue-3-sanitize/releases)
+[![vue-next](https://img.shields.io/badge/vue-next-brightgreen.svg)](https://github.com/vuejs/vue-next) [![npm](https://img.shields.io/npm/v/vue-3-sanitize.svg?style=flat-square)](https://npmjs.org/package/vue-3-sanitize)
 
 You want to use `v-html`? You might need to sanitize the code. This plugin is built for Vue 3 apps. It is built upon on [sanitize-html](https://github.com/punkave/sanitize-html).
 
@@ -21,10 +21,10 @@ npm install --save vue-3-sanitize
 Register the plugin
 
 ``` js
-import VueSanitize from "vue-sanitize";
+import Vue3Sanitize from "vue-3-sanitize";
 
 // const app = createApp(YourVue3App);
-app.use(VueSanitize);
+app.use(Vue3Sanitize);
 ```
 
 To override the default options of [sanitize-html](https://www.npmjs.com/package/sanitize-html), pass them as an argument. It is not supported to merge them.
