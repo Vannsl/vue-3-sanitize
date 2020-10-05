@@ -33,7 +33,7 @@ To override the default options of [sanitize-html](https://www.npmjs.com/package
 const overridenOptions = {
     allowedTags: ['img']
 };
-app.use(VueSanitize, overridenOptions);
+app.use(Vue3Sanitize, overridenOptions);
 ```
 
 ### Template
