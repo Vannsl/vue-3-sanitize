@@ -5,7 +5,7 @@
   "license": "MIT",
   "description": "HTML sanitizer for Vue.js 3 apps",
   "homepage": "https://github.com/vannsl/vue-3-sanitize",
-  "main": "dist/vue-sanitize.js",
+  "main": "dist/vue-3-sanitize.js",
   "scripts": {
     "build": "rollup -c"
   },
