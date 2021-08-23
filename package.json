@@ -14,7 +14,7 @@
     "url": "https://github.com/vannsl/vue-3-sanitize.git"
   },
   "files": [
-    "dist/*"
+    "dist/*", "index.js"
   ],
   "keywords": [
     "vue3",
