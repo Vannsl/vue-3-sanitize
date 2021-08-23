@@ -1,7 +1,7 @@
 {
   "name": "vue-3-sanitize",
   "version": "0.1.3",
-  "author": "Vannsl, Vanessa Böhner <mail@vannsl.io>",
+  "author": "Vannsl, Vanessa Otto <mail@vannsl.io>",
   "license": "MIT",
   "description": "HTML sanitizer for Vue.js 3 apps",
   "homepage": "https://github.com/vannsl/vue-3-sanitize",
