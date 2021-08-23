@@ -1,10 +1,12 @@
 const sanitizeHtml = require("sanitize-html");
 
-export default {
-  install: (app, options) => {
-    app.config.globalProperties.$sanitize = (dirty, opts = null) =>
-      sanitizeHtml(dirty, opts || options);
-  },
+const Vue3Sanitize = {
+    install: (app, options) => {
+        app.config.globalProperties.$sanitize = (dirty, opts = null) =>
+            sanitizeHtml(dirty, opts || options);
+    },
 
-  defaults: sanitizeHtml.defaults,
+    defaults: sanitizeHtml.defaults,
 };
+
+export default Vue3Sanitize;
